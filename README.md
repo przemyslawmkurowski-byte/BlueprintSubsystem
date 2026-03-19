@@ -11,3 +11,5 @@ Celem eksperymentu jest sprawdzenie, czy da się łatwo stworzyć subsystem blue
 5. W blueprincie levelu podepnij pod debug key pozyskanie BP_TestSubsystemu i wywołanie na nim funkcji.
 
 Spodziewany rezultat: Unreal zgłasza error z wywoływaniem funkcji na nullu.
+
+Rezultat: Wciśnięcie debug keya powoduje wyświetlenie "Hello World"
