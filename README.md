@@ -40,3 +40,9 @@ Wobec tego należy wymusić załadowanie Subsystemu, w momencie odpalenia gry.
 3. Wstaw do tablicy BP_TestSubsystem.
 
 Spodziewany rezultat: wciśnięcie debug keya powoduje wyświetlenie hello world
+
+Rezultat: jak oczekiwano, zarówno w edytorze, jak i buildzie
+
+# Podsumowanie
+
+Wstawienie twardej referencji na Subsystem, do GameInstance'a, wymusza załadowanie Subsystemu. To z kolei powoduje, że subsystem zostaje zarejestrowany w liście subsystemów i jest dostępny.
