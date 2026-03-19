@@ -46,3 +46,5 @@ Rezultat: jak oczekiwano, zarówno w edytorze, jak i buildzie
 # Podsumowanie
 
 Wstawienie twardej referencji na Subsystem, do GameInstance'a, wymusza załadowanie Subsystemu. To z kolei powoduje, że subsystem zostaje zarejestrowany w liście subsystemów i jest dostępny.
+
+Innymi słowy, eksperyment zakończył się sukcesem.
